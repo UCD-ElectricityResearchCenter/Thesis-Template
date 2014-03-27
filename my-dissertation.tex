@@ -12,7 +12,7 @@
 % 1. thesis/dissertation
 % 2. monochrome
 % 3. all options provided by the report class
-\documentclass[thesis,letterpaper,12pt]{utthesis} % thesis, one side
+\documentclass[thesis,a4paper,12pt]{ucdThesis} % thesis, one side
 % some alternatives are:
 %\documentclass[thesis,monochrome,letterpaper,12pt]{utthesis} %thesis, one side, monochrome text
 %\documentclass[thesis,twoside,letterpaper,12pt]{utthesis} % thesis, two side
@@ -23,18 +23,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TO DO: FILL IN YOUR INFORMATION BELOW - READ THIS SECTION CAREFULLY
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{My Thesis or Dissertation Title}	       % title of thesis/dissertation
+\title{My Thesis Title}	       % title of thesis/dissertation
 \author{My Name}                % author's name
-\copyrightYear{2012}            % copyright year of your thesis/dissertation
+\copyrightYear{2014}            % copyright year of your thesis/dissertation
 \graduationMonth{May}           % month of graduation of your thesis/dissertation
 \majorProfessor{My Advisor}	    % advisor's name
 \keywords{List, Of, Keywords}	% keywords (optional) separated by commas - these are used in the PDF file properties
 \viceProvost{Carolyn R. Hodges} % vice provost name
-\major{Mechanical Engineering}	% major: Mechanical Engineering, Aerospace Engineering, Mathematics...
+\major{Electrical Engineering}	% major: Mechanical Engineering, Aerospace Engineering, Mathematics...
 \degree{Master of Science}	    % degree: Doctor of Philosophy, Master of Science, Master of Engineering...
-\college{Engineering}           % college
-\dept{Mechanical, Aerospace and Biomedical Engineering}	% department
-\university{The University  of Tennessee, Knoxville}	% school name
+\college{Engineering and Architecture}           % college
+\dept{Electrical, Electronic and Communications Engineering}	% department
+\university{University College Dublin}	% school name
 % THIS TEMPLATE ACCOMMODATES UP TO 5 COMMITTEE MEMBERS - ENTER ONLY THE NAMES OF THE MEMBERS ON YOUR COMMITTEE
 \numberOfCommitteeMembers{2} % enter the number of committee members
 \committeeMemberA {Committee Member 1}	% name of first committee member
@@ -50,6 +50,7 @@
 \usepackage{natbib}                     % this package allows you to link your references
 \usepackage{graphicx}					% graphics package
 \graphicspath{ {figures/}{figures/eps/}{figures/pdf/} }% specify the path where figures are located
+\usepackage{epstopdf}					% converts eps files to pdf
 \usepackage{fancyhdr}                   % fancy headers and footers
 \usepackage{url}                        % nicely format url breaks
 \usepackage[inactive]{srcltx}		 	% necessary to use forward and inverse searching in DVI

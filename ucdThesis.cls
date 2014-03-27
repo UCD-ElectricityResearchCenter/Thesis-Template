@@ -36,33 +36,33 @@
 % or contact the thesis consultant (http://web.utk.edu/~thesis/).
 % Please report any bugs to the thesis consultant.
 \NeedsTeXFormat{LaTeX2e}%
-\def\filename{utthesis.cls}%
-\def\fileversion{ver 1.0.0}%
-\def\filedate{March 30, 2010}%
-\def\contributors{Tony Saad}%
+\def\filename{ucdThesis.cls}%
+\def\fileversion{ver 0.0.1}%
+\def\filedate{27 March 2014}%
+\def\contributors{Alexander C. Melhorn}%
 \typeout{\filename}%
 \typeout{\fileversion}%
-\typeout{Created by Tony Saad}%
+\typeout{Created by Alexander C. Melhorn}%
 \typeout{\filedate}%
-\typeout{Some parts and settings of this class are based on the template provided by David L. Page.}
+\typeout{Some parts and settings of this class are based on the UTK template provided by Tony Saad.}
 %---------------------------------------------------------------------------------------------------%
-\ProvidesClass{utthesis}
+\ProvidesClass{ucdThesis}
 % some internal variables
 \def\thesisID{1}%
-\def\dissertationID{2}%
+%\def\dissertationID{2}%
 \def\theDocumentType#1{\gdef\@theDocumentType{#1}}%
 \def\documentID#1{\gdef\@documentID{#1}}% documentID is either 1 (for thesis) or 2 (for dissertation)
 % declare package options
 \DeclareOption{thesis}{%
     \def\@theDocumentType{thesis}%
     \def\@documentID{\thesisID}}%
-\DeclareOption{dissertation}{%
-    \def\@theDocumentType{dissertation}%
-    \def\@documentID{\dissertationID}}%
+%\DeclareOption{dissertation}{%
+%    \def\@theDocumentType{dissertation}%
+%    \def\@documentID{\dissertationID}}%
 \DeclareOption{linespacing}{\@lnspacing}
 \DeclareOption*{\PassOptionsToPackage{\CurrentOption}{color}}%
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}%
-\ExecuteOptions{dissertation,letterpaper,12pt}% execute default options
+\ExecuteOptions{thesis,a4paper,12pt}% execute default options
 \ProcessOptions%
 \LoadClass{report} % single-sided
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -89,14 +89,14 @@
 \def\@author{My Name}
 \def\@keywords{My Keywords}
 \def\@graduationMonth{May}
-\def\@copyrightYear{2009}
+\def\@copyrightYear{2014}
 \def\@majorProfessor{My Advisor}
 \def\@degree{Doctor of Philosophy}	% degree type
-\def\@college{Engineering}           % college
-\def\@dept{Mechanical, Aerospace and Biomedical Engineering}	% department
+\def\@college{Engineering and Architecture}           % college
+\def\@dept{Electrical, Electronic and Communications Engineering}	% department
 \def\@viceProvost{Carolyn R. Hodges}    % vice provost name
-\def\@major{Mechanical Engineering}	% major
-\def\@university{The University  of Tennessee, Knoxville}	% school
+\def\@major{Electrical Engineering}	% major
+\def\@university{University College Dublin}	% school
 \def\@numberOfCommitteeMembers{3}
 \def\@committeeMemberA {Committee member A}	% first committee member
 \def\@committeeMemberB {Committee member B}	% second committee member
@@ -108,7 +108,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage{amsmath,amsthm,amssymb}     % AMS math, AMS theorem, AMS fonts
 \RequirePackage{setspace}                   % line spacing
-\RequirePackage[vcentering,dvips]{geometry}	% help with margins
+\RequirePackage[vcentering,dvips,a4paper]{geometry}	% help with margins
 \RequirePackage[pdftex,plainpages=false,pdfpagelabels=true,breaklinks=true,pagebackref]{hyperref} % for pdf bookmarks
 \RequirePackage{color}
 %----------------------------------------------------------------------------------------------------%
@@ -149,7 +149,7 @@
 }
 %----------------------------------------------------------------------------------------------------%
 \geometry{
-    letterpaper,
+    a4paper,
     left = 1.5in,
     right = 1.0in,
     top = 1.0in,
@@ -174,32 +174,49 @@
     \begin{spacing}{1.5}
 	\vspace*{0.3in}
 	\begin{center}
+		\includegraphics[width=2cm]{ucd.eps}
+
 		\huge
 		\bf
-		\@title%
-		%\vspace*{1.5in} \mbox{} \\
+		\@title
         \vfill
+	
 		\Large \rm
-        \ifnum\@documentID=\thesisID {
-            A Thesis Presented for
+		\@author
 
+	\vfill
+
+		\normalsize
+        \ifnum\@documentID=\thesisID {
+		 A thesis submitted to \@university
+
+		in fulfilment of the requirements for the degree of
+	
+	\bigskip
+	\Large
             The \@degree
         } \else {
             A Dissertation
 
             Presented for the
-
-            \@degree
+	
+	\emph{\@degree}
         } \fi
+	\bigskip
+
+		\normalsize
+	College of \@college
+
+	School of \@dept
+
+	\vfill
+
+	Head of School: \\
+	Supervisor:	\\
+	Co-supervisor:	\\
+	Nominating Professor:	\\
 		
-		Degree
-		
-		\@university
-		
-		\vspace*{1.0in}%
-		
-		\@author %
-		\\%
+		\vfill		
 		\@graduationMonth\ \@copyrightYear
 	\end{center}
     \end{spacing}
