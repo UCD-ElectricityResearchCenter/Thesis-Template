@@ -47,7 +47,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{nomencl}                    % produces a nomenclature
 \usepackage{float}                      % figure floats
-\usepackage{natbib}                     % this package allows you to link your references
+\usepackage[numbers]{natbib}                     % this package allows you to link your references
 \usepackage{graphicx}					% graphics package
 \graphicspath{ {figures/}{figures/eps/}{figures/pdf/} }% specify the path where figures are located
 \usepackage{epstopdf}					% converts eps files to pdf
@@ -63,8 +63,8 @@
 \begin{document}
     \pagenumbering{alph} % this is needed to clear certain issues with the hyperref package
     %
-    \makeApprovalPage % make the approval page - this is the page that needs to be signed & returned to the thesis/dissertation consultant
-    \makeETDApprovalPage % make the Electronic Thesis & Dissertation page - this page is kept with the electronic copy
+    %\makeApprovalPage % make the approval page - this is the page that needs to be signed & returned to the thesis/dissertation consultant
+    %\makeETDApprovalPage % make the Electronic Thesis & Dissertation page - this page is kept with the electronic copy
     %
     \addToPDFBookmarks{0}{Front Matter}{rootNode} % create a root node named "Front Matter" in the pdf bookmarks
     \addToPDFBookmarks{1}{Title}{a} % add a pdf bookmark to the title page
@@ -115,7 +115,7 @@
     % BIBLIOGRAPHY
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \makeBibliographyPage % make the bibliography title page - can be edited in ut-thesis-template.tex
-    \bibliographystyle{apalike} % bibliography style - recommend using apalike-doi as it hyperlinks DOIs
+    \bibliographystyle{ieeetran} % bibliography style - recommend using apalike-doi as it hyperlinks DOIs
     \bibliography{references/references-dissertation} % references.bib included in the references directory
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % APPENDIX - OPTIONAL - COMMENT IF NOT NEEDED
