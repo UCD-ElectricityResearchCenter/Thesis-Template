@@ -1,28 +1,25 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                                                                                	%
-%  UT.UT.UT.UT.UT            UT.UT.UT.UT.UT.U  UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT""	%
-%  UT.UT.UT.UT.UT          ""UT.UT.UT.UT.UT.U  UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT  	%
-%  UT.UT.UT.UT.UT      ""UT.UT.UT.UT.UT.UT.UT  UT.UT.UT.UT.UT.UT.UT.UT.UT.;;    	%
-%  UT.UT.UT.UT.UT      UT.UT.UT.UT.UT.UT.UT.U  UT.UT.UT.UT.UT.UT.UT.UT.UT;;      	%
-%  UT.UT.UT.UT.UT    "UT.UT.UT.UT.UT.UT.UT.UT  UT.UT.UT.UT.UT.UT.UT.UT.UT        	%
-%  UT.UT.UT.UT.UT  UT.UT.UT.UT.UT.UT.UT.UT.UT  UT.UT.UT.UT.UT.UT.UT.UT.""          	%
-%  UT.UT.UT.UT.UT  UT.UT.UT.UT.UT.UT.UT.UT.UT  UT.UT.UT.UT.UT.UT.UT.UT.            	%
-%  UT.UT.UT.UT.UT  UT.UT.UT.UT.UT.UT.UT.UT.UT  UT.UT.UT.UT.UT.UT.UT.              	%
-%  UT.UT.UT.UT.UT                UT.UT.UT.UT|  UT.UT.UT.UT.                      	%
-%  UT.UT.UT.UT.UT                UT.UT.UT.UT|  UT.UT.UT.UT.                      	%
-%  UT.UT.UT.UT.UT                UT.UT.UT.UT|  UT.UT.UT.UT.                      	%
-%  UT.UT.UT.UT.UT                UT.UT.UT.UT|  UT.UT.UT.UT.                      	%
-%  UT.UT.UT.UT.UT                UT.UT.UT.UT|  UT.UT.UT.UT.                      	%
-%  UT.UT.UT.UT.UT                UT.UT.UT.UT|  UT.UT.UT.UT.                      	%
-%  UT.UT.UT.UT.UT                UT.UT.UT.UT|  UT.UT.UT.UT.                      	%
-%  UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT|  UT.UT.UT.UT.                      	%
-%  UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT|  UT.UT.UT.UT.                      	%
-%  UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.U    UT.UT.UT.UT.                      	%
-%    UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.      UT.UT.UT.UT.                      	%
-%      UT.UT.UT.UT.UT.UT.UT.UT.UT.UT.UT        UT.UT.UT.UT.                      	%
-%        UT.UT.UT.UT.UT.UT.UT.UT.UT.U          UT.UT.UT.UT.                      	%
-%            UT.UT.UT.UT.UT.UT.UT.U            UT.UT.UT.UT.                      	%
-%-----------------------------------------------------------------------------------%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%       eeeeeeeeeeeeeeeeeeeeeeeeeeeee      rrrrrrrrrrr    rrrrrrrrrrrrr        cccccccccccccccccccccccccccccc %
+%    eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee  rrrrrrrrrrrrrrrrrrrrrrrrrrrrr   ccccccccccccccccccccccccccccccccccc %
+%  eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee rrrrrrrrrrrrrrrrrrrrrrrrrrrrr  ccccccccccccccccccccccccccccccccccccc%
+% eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee rrrrrrrrrrrrrrrrrrrrrrrrrrrrrccccccccccccccccccccccccccccccccccccccc%
+% eeeeeeeeeeeeee             eeeeeeeeeeee rrrrrrrrrrrrrrrrrrrrrrrrrrrrrcccccccccccccc                         %
+%eeeeeeeeeeeeee               eeeeeeeeeee rrrrrrrrrrrrr                ccccccccccccc                          %
+%eeeeeeeeeeeeee               eeeeeeeeeee rrrrrrrrrrrrr                cccccccccccccc                         %
+%eeeeeeeeeeeeee               eeeeeeeeeee rrrrrrrrrrrrr                cccccccccccccc                         %
+%eeeeeeeeeeeeee              eeeeeeeeeeee rrrrrrrrrrrrr                cccccccccccccc                         %
+%eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee rrrrrrrrrrrrr                cccccccccccccc                         %
+%eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee rrrrrrrrrrrrr                cccccccccccccc                         %
+%eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee  rrrrrrrrrrrrr                cccccccccccccc                         %
+%eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee   rrrrrrrrrrrrr                cccccccccccccc                         %
+%eeeeeeeeeeeeee                           rrrrrrrrrrrrr                cccccccccccccc                         %
+%eeeeeeeeeeeeee                           rrrrrrrrrrrrr                ccccccccccccc                          %
+%eeeeeeeeeeeeee                           rrrrrrrrrrrrr                cccccccccccccc                         %
+% eeeeeeeeeeeeeeeeeeeeeeee          eeeee rrrrrrrrrrrrr                ccccccccccccccccccccccccccccccccccccccc%
+% eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrr                 cccccccccccccccccccccccccccccccccccccc%
+%   eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrr                  ccccccccccccccccccccccccccccccccccccc%
+%     eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee rrrrrrrrrrrrrr                   cccccccccccccccccccccccccccccccccc %
+%-----------------------------------------------------------------------------------%-------------------------%
 %-----------------------------------------------------------------------------------%
 %	      T H E S I S	  &   	D I S S E R T A T I O N    T E M P L A T E			%
 %-----------------------------------------------------------------------------------%
@@ -31,9 +28,9 @@
 % It serves as a guideline and constitutes a basic structure for a
 % thesis/dissertation. The user assumes full responsibility for formatting
 % and typesetting their document and for verifying that all the thesis
-% requirements set by the University of Tennessee are met. Please refer to the most
-% recent UT thesis guide (http://web.utk.edu/~thesis/thesisresources.shtml)
-% or contact the thesis consultant (http://web.utk.edu/~thesis/).
+% requirements set by the University College Dublin are met. Please refer to the 
+% most recent UCD thesis guide ()
+% or contact the thesis consultant ().
 % Please report any bugs to the thesis consultant.
 \NeedsTeXFormat{LaTeX2e}%
 \def\filename{ucdThesis.cls}%
@@ -44,7 +41,7 @@
 \typeout{\fileversion}%
 \typeout{Created by Alexander C. Melhorn}%
 \typeout{\filedate}%
-\typeout{Some parts and settings of this class are based on the UTK template provided by Tony Saad.}
+\typeout{Some parts and settings of this class are based on the UTK template provided by Tony Saad. (http://web.utk.edu/~thesis/thesisresources.shtml)}
 %---------------------------------------------------------------------------------------------------%
 \ProvidesClass{ucdThesis}
 % some internal variables
@@ -70,16 +67,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\copyrightYear#1{\gdef\@copyrightYear{#1}}%
 \def\graduationMonth#1{\gdef\@graduationMonth{#1}}%
-\def\majorProfessor#1{\gdef\@majorProfessor{#1}}%
+\def\supervisor#1{\gdef\@supervisor{#1}}%
+\def\nomProf#1{\gdef\@nomProf{#1}}%
 \def\keywords#1{\gdef\@keywords{#1}}%
-\def\viceProvost#1{\gdef\@viceProvost{#1}} %
+\def\headSchool#1{\gdef\@headSchool{#1}} %
 \def\major#1{\gdef\@major{#1}}%
 \def\degree#1{\gdef\@degree{#1}}%
 \def\college#1{\gdef\@college{#1}}%
 \def\dept#1{\gdef\@dept{#1}}%
 \def\university#1{\gdef\@university{#1}}%
 \def\numberOfCommitteeMembers#1{\gdef\@numberOfCommitteeMembers{#1}} % enter the number of committee members
-\def\committeeMemberA#1 {\gdef\@committeeMemberA{#1}}% first committee member
+\def\coSupervisorA#1 {\gdef\@coSupervisorA{#1}}% first committee member
 \def\committeeMemberB#1 {\gdef\@committeeMemberB{#1}}% second committee member
 \def\committeeMemberC#1 {\gdef\@committeeMemberC{#1}}% ... you get the trend!
 \def\committeeMemberD#1 {\gdef\@committeeMemberD{#1}}%
@@ -90,15 +88,16 @@
 \def\@keywords{My Keywords}
 \def\@graduationMonth{May}
 \def\@copyrightYear{2014}
-\def\@majorProfessor{My Advisor}
+\def\@supervisor{My Advisor}
+\def\@nomProf{My Nominating Professor}
 \def\@degree{Doctor of Philosophy}	% degree type
 \def\@college{Engineering and Architecture}           % college
 \def\@dept{Electrical, Electronic and Communications Engineering}	% department
-\def\@viceProvost{Carolyn R. Hodges}    % vice provost name
+\def\@headSchool{Prof. Thom Brazil}    % vice provost name
 \def\@major{Electrical Engineering}	% major
 \def\@university{University College Dublin}	% school
 \def\@numberOfCommitteeMembers{3}
-\def\@committeeMemberA {Committee member A}	% first committee member
+\def\@coSupervisorA {Co-Supervisor A}	% first committee member
 \def\@committeeMemberB {Committee member B}	% second committee member
 \def\@committeeMemberC {Committee member C}	% ... you get the trend!
 \def\@committeeMemberD {Committee member D}	%
@@ -171,146 +170,143 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\makeTitlePage} {
 	\thispagestyle{empty}
-    \begin{spacing}{1.5}
+	\begin{spacing}{1.5}
 	\vspace*{0.3in}
 	\begin{center}
 		\includegraphics[width=2cm]{ucd.eps}
 
-		\huge
-		\bf
+		\huge \bf
 		\@title
+		
         \vfill
 	
 		\Large \rm
 		\@author
 
-	\vfill
+		\vfill
 
 		\normalsize
         \ifnum\@documentID=\thesisID {
-		 A thesis submitted to \@university
-
-		in fulfilment of the requirements for the degree of
-	
-	\bigskip
-	\Large
-            The \@degree
-        } \else {
-            A Dissertation
-
-            Presented for the
-	
-	\emph{\@degree}
+			A thesis submitted to \@university \\ in fulfilment of the requirements for the degree of
+			\bigskip
+			
+			\Large			
+			\textbf{\@degree}
+		} 
+		\else {
+            A Dissertation \\ Presented for the	\emph{\@degree}
         } \fi
-	\bigskip
+		
+		\bigskip
 
 		\normalsize
-	College of \@college
+		College of \@college \\
+		School of \@dept \\
 
-	School of \@dept
+		\vfill
 
-	\vfill
-
-	Head of School: \\
-	Supervisor:	\\
-	Co-supervisor:	\\
-	Nominating Professor:	\\
+		\emph{Head of School:}  \@headSchool \\
+		\emph{Supervisor:} 	\@supervisor \\
+		\emph{Co-supervisor:}	\@coSupervisorA \\
+		% you can add more co-supervisors here
+		\emph{Nominating Professor:}  \@nomProf \\
 		
 		\vfill		
+		
 		\@graduationMonth\ \@copyrightYear
 	\end{center}
     \end{spacing}
-    \cleardoublepage
+	\cleardoublepage
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %		makeApprovalPage: this macro will make the approval page
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand {\makeApprovalPage} {
-	\thispagestyle{empty}
-	\begin{spacing}{1.1}
-    	\noindent To the Graduate Council:
-
-    	\noindent I am submitting herewith a \@theDocumentType\ written by \@author \, entitled ``\@title.''
-    	I have examined the final paper copy of this \@theDocumentType\ for form and
-    	content and recommend that it be accepted in partial fulfillment
-    	of the requirements for the degree of \@degree, with a major in \@major.
-    	\vspace*{.35in} \noindent
-    	\newline
-    	\hspace*{3.5in}\underline{\hspace*{2.5in}}
-    	\newline
-    	\hspace*{3.5in}\@majorProfessor, Major Professor %
-    	\begin{singlespace}
-    		\noindent We have read this \@theDocumentType
-    		\newline  and recommend its acceptance:
-            \addCommitteeMember{\@committeeMemberA}
-            \addCommitteeMember{\@committeeMemberB}
-            \ifnum\@numberOfCommitteeMembers>2
-                \addCommitteeMember{\@committeeMemberC}
-            \fi
-            \ifnum\@numberOfCommitteeMembers>3
-                \addCommitteeMember{\@committeeMemberD}
-            \fi
-            \ifnum\@numberOfCommitteeMembers>4
-                \addCommitteeMember{\@committeeMemberE}
-            \fi
-            \vfill
-            {\noindent \hspace*{2.65in}Accepted for the Council:
-            \\[20pt]
-        	\hspace*{2.65in}\underline{\hspace*{2.5in}}
-            \newline
-    		\hspace*{2.65in}\@viceProvost
-            \\[6pt]
-    		\hspace*{2.6in} Vice Provost and Dean of the Graduate School}
-    	\end{singlespace}
-    \end{spacing}
-	\pagebreak%
-}
+%\newcommand {\makeApprovalPage} {
+%	\thispagestyle{empty}
+%	\begin{spacing}{1.1}
+%    	\noindent To the Graduate Council:
+%
+%    	\noindent I am submitting herewith a \@theDocumentType\ written by \@author \, entitled ``\@title.''
+%    	I have examined the final paper copy of this \@theDocumentType\ for form and
+%    	content and recommend that it be accepted in partial fulfillment
+%    	of the requirements for the degree of \@degree, with a major in \@major.
+%    	\vspace*{.35in} \noindent
+%    	\newline
+%    	\hspace*{3.5in}\underline{\hspace*{2.5in}}
+%    	\newline
+%    	\hspace*{3.5in}\@majorProfessor, Major Professor %
+%    	\begin{singlespace}
+%    		\noindent We have read this \@theDocumentType
+%    		\newline  and recommend its acceptance:
+%            \addCommitteeMember{\@committeeMemberA}
+%            \addCommitteeMember{\@committeeMemberB}
+%            \ifnum\@numberOfCommitteeMembers>2
+%                \addCommitteeMember{\@committeeMemberC}
+%            \fi
+%            \ifnum\@numberOfCommitteeMembers>3
+%                \addCommitteeMember{\@committeeMemberD}
+%            \fi
+%            \ifnum\@numberOfCommitteeMembers>4
+%                \addCommitteeMember{\@committeeMemberE}
+%            \fi
+%            \vfill
+%            {\noindent \hspace*{2.65in}Accepted for the Council:
+%            \\[20pt]
+%        	\hspace*{2.65in}\underline{\hspace*{2.5in}}
+%            \newline
+%    		\hspace*{2.65in}\@viceProvost
+%            \\[6pt]
+%    		\hspace*{2.6in} Vice Provost and Dean of the Graduate School}
+%    	\end{singlespace}
+%    \end{spacing}
+%	\pagebreak%
+%}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %		makeETDApprovalPage: this macro will make the ETD approval page
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand {\makeETDApprovalPage} {
-	\thispagestyle{empty}
-    \begin{spacing}{1.1}
-    	\noindent To the Graduate Council:
-
-    	\noindent I am submitting herewith a \@theDocumentType\ written by \@author \, entitled ``\@title.''
-    	I have examined the final electronic copy of this \@theDocumentType\ for form and
-    	content and recommend that it be accepted in partial fulfillment
-    	of the requirements for the degree of \@degree, with a major in \@major.
-    	\vspace*{.05in} \noindent
-    	{\begin{flushright} \@majorProfessor, Major Professor \end{flushright}} %
-        \vspace*{.1in} \noindent
-    	\begin{singlespace}
-        	\noindent We have read this \@theDocumentType
-        	\newline  and recommend its acceptance:        	
-            \addCommitteeMemberETD{\@committeeMemberA}
-            \addCommitteeMemberETD{\@committeeMemberB}
-            \ifnum\@numberOfCommitteeMembers>2
-                \addCommitteeMemberETD{\@committeeMemberC}
-            \fi
-            \ifnum\@numberOfCommitteeMembers>3
-                \addCommitteeMemberETD{\@committeeMemberD}
-            \fi
-            \ifnum\@numberOfCommitteeMembers>4
-                \addCommitteeMemberETD{\@committeeMemberE}
-            \fi
-            \vfill
-                \noindent \hspace*{2.65in}Accepted for the Council:
-                \newline
-                \\[-2pt]
-                \noindent \hspace*{2.65in}\@viceProvost
-                \\[-8pt]
-            	\noindent \hspace*{2.65in}\underline{\hspace*{2.5in}}
-                \newline		
-                \newline
-        		\hspace*{2.65in}Vice Provost and Dean of the Graduate School
-                \begin{center}
-                    (Original signatures are on file with official student records.)
-                \end{center}
-    	\end{singlespace}
-    \end{spacing}
-	\pagebreak%
-}
+%\newcommand {\makeETDApprovalPage} {
+%	\thispagestyle{empty}
+%    \begin{spacing}{1.1}
+%    	\noindent To the Graduate Council:
+%
+%    	\noindent I am submitting herewith a \@theDocumentType\ written by \@author \, entitled ``\@title.''
+%    	I have examined the final electronic copy of this \@theDocumentType\ for form and
+%    	content and recommend that it be accepted in partial fulfillment
+%    	of the requirements for the degree of \@degree, with a major in \@major.
+%    	\vspace*{.05in} \noindent
+%    	{\begin{flushright} \@majorProfessor, Major Professor \end{flushright}} %
+%        \vspace*{.1in} \noindent
+%    	\begin{singlespace}
+%        	\noindent We have read this \@theDocumentType
+%        	\newline  and recommend its acceptance:        	
+%            \addCommitteeMemberETD{\@committeeMemberA}
+%            \addCommitteeMemberETD{\@committeeMemberB}
+%            \ifnum\@numberOfCommitteeMembers>2
+%                \addCommitteeMemberETD{\@committeeMemberC}
+%            \fi
+%            \ifnum\@numberOfCommitteeMembers>3
+%                \addCommitteeMemberETD{\@committeeMemberD}
+%            \fi
+%            \ifnum\@numberOfCommitteeMembers>4
+%                \addCommitteeMemberETD{\@committeeMemberE}
+%            \fi
+%            \vfill
+%                \noindent \hspace*{2.65in}Accepted for the Council:
+%                \newline
+%                \\[-2pt]
+%                \noindent \hspace*{2.65in}\@viceProvost
+%                \\[-8pt]
+%            	\noindent \hspace*{2.65in}\underline{\hspace*{2.5in}}
+%                \newline		
+%                \newline
+%        		\hspace*{2.65in}Vice Provost and Dean of the Graduate School
+%                \begin{center}
+%                    (Original signatures are on file with official student records.)
+%                \end{center}
+%    	\end{singlespace}
+%    \end{spacing}
+%	\pagebreak%
+%}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\addCommitteeMember}[1] {
 	\vspace*{.3in}%

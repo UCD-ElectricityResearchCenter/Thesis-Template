@@ -1,0 +1,2 @@
+Complete Compiling Command for Texmaker:
+pdflatex -synctex=1 -interaction=nonstopmode %.tex|bibtex %|makeindex %.idx|makeindex %.nlo -s nomencl.ist -o %.nls|pdflatex -synctex=1 -interaction=nonstopmode %.tex|pdflatex -synctex=1 -interaction=nonstopmode %.tex|"C:/Program Files (x86)/Adobe/Reader 11.0/Reader/AcroRd32.exe" %.pdf

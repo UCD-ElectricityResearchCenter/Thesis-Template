@@ -3,9 +3,9 @@
 % It serves as a guideline and constitutes a basic structure for a
 % thesis/dissertation. The user assumes full responsibility for formatting
 % and typesetting their document and for verifying that all the thesis
-% requirements set by the University of Tennessee are met. Please refer to the most
-% recent UT thesis guide (http://web.utk.edu/~thesis/thesisresources.shtml)
-% or contact the thesis consultant (http://web.utk.edu/~thesis/).
+% requirements set by the University College Dublin are met. Please refer to the 
+%  most recent UCD thesis guide ()
+% or contact the thesis consultant ().
 % Please report any bugs to the thesis consultant.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % O P T I O N S:
@@ -14,30 +14,31 @@
 % 3. all options provided by the report class
 \documentclass[thesis,a4paper,12pt]{ucdThesis} % thesis, one side
 % some alternatives are:
-%\documentclass[thesis,monochrome,letterpaper,12pt]{utthesis} %thesis, one side, monochrome text
-%\documentclass[thesis,twoside,letterpaper,12pt]{utthesis} % thesis, two side
-%\documentclass[thesis,monochrome,twoside,letterpaper,12pt]{utthesis} % thesis, two side, monochrome text
+%\documentclass[thesis,monochrome,a4paper,12pt]{ucdThesis} %thesis, one side, monochrome text
+%\documentclass[thesis,twoside,a4paper,12pt]{ucdThesis} % thesis, two side
+%\documentclass[thesis,monochrome,twoside,a4paper,12pt]{ucdThesis} % thesis, two side, monochrome text
 % for a dissertation, replace the thesis option by dissertation:
-% \documentclass[dissertation,letterpaper,12pt]{utthesis} . . .
+% \documentclass[dissertation,a4paper,12pt]{ucdThesis} . . .
 \renewcommand{\baselinestretch}{1.5} 	 % line Spacing
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TO DO: FILL IN YOUR INFORMATION BELOW - READ THIS SECTION CAREFULLY
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{My Thesis Title}	       % title of thesis/dissertation
+\title{My Thesis Title Test 2}	       % title of thesis/dissertation
 \author{My Name}                % author's name
 \copyrightYear{2014}            % copyright year of your thesis/dissertation
 \graduationMonth{May}           % month of graduation of your thesis/dissertation
-\majorProfessor{My Advisor}	    % advisor's name
+\supervisor{My Supervisor}	    % advisor's name
+\nomProf{My Nominating Professor}	    % advisor's name
 \keywords{List, Of, Keywords}	% keywords (optional) separated by commas - these are used in the PDF file properties
-\viceProvost{Carolyn R. Hodges} % vice provost name
+\headSchool{Prof. Tom Brazil} % vice provost name
 \major{Electrical Engineering}	% major: Mechanical Engineering, Aerospace Engineering, Mathematics...
-\degree{Master of Science}	    % degree: Doctor of Philosophy, Master of Science, Master of Engineering...
+\degree{Philosophi{\ae} Doctor}	    % degree: Doctor of Philosophy, Master of Science, Master of Engineering...
 \college{Engineering and Architecture}           % college
 \dept{Electrical, Electronic and Communications Engineering}	% department
 \university{University College Dublin}	% school name
 % THIS TEMPLATE ACCOMMODATES UP TO 5 COMMITTEE MEMBERS - ENTER ONLY THE NAMES OF THE MEMBERS ON YOUR COMMITTEE
 \numberOfCommitteeMembers{2} % enter the number of committee members
-\committeeMemberA {Committee Member 1}	% name of first committee member
+\coSupervisorA {My Co-Supervisor}	% name of first committee member
 \committeeMemberB {Committee Member 2}	% name of second committee member
 \committeeMemberC {Committee Member 3}	% ... you get the trend!
 \committeeMemberD {Committee Member 4}	% if your committee has less than 4 members, you do not need to edit the
@@ -58,7 +59,8 @@
 \usepackage{booktabs}                   % professional looking tables
 \usepackage[config, labelfont={bf}]{caption,subfig} % nice sub figures
 \usepackage{mathrsfs}                   % additional math scripts
-%%% PACKAGES THAT ARE PRELOADED WITH THE CLASS ARE: amsmath,amsthm,amssymb,setspace,geometry,hyperref,and color
+\usepackage[Bjarne]{fncychap/fncychap}	% creats fancier chapter titles
+%%% PACKAGES THAT ARE PRELOADED WITH THE CLASS ARE: amsmath,amsthm,amssymb,setspace,geometry,hyperref,and colors
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
     \pagenumbering{alph} % this is needed to clear certain issues with the hyperref package
@@ -96,8 +98,8 @@
     \addToTOC{List of Figures} % this will add the list of figures to the Table of Contents (TOC)
     \listoffigures % generate a list of figures
     %
-    \makenomenclature % OPTIONAL
     \addToPDFBookmarks{0}{Nomenclature}{g} % OPTIONAL
+    \makenomenclature % OPTIONAL
     \printnomenclature[1.25in] % OPTIONAL
     %
     \newpage
