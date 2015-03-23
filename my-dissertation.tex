@@ -24,43 +24,34 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TO DO: FILL IN YOUR INFORMATION BELOW - READ THIS SECTION CAREFULLY
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{My Thesis Title Test 2}	       % title of thesis/dissertation
-\author{My Name}                % author's name
-\copyrightYear{2014}            % copyright year of your thesis/dissertation
-\graduationMonth{May}           % month of graduation of your thesis/dissertation
-\supervisor{My Supervisor}	    % advisor's name
-\nomProf{My Nominating Professor}	    % advisor's name
-\keywords{List, Of, Keywords}	% keywords (optional) separated by commas - these are used in the PDF file properties
-\headSchool{Prof. Tom Brazil} % vice provost name
-\major{Electrical Engineering}	% major: Mechanical Engineering, Aerospace Engineering, Mathematics...
-\degree{Philosophi{\ae} Doctor}	    % degree: Doctor of Philosophy, Master of Science, Master of Engineering...
-\college{Engineering and Architecture}           % college
+\title{My Thesis Title}					% title of thesis/dissertation
+\author{My Name}                		% author's name
+\currentDegree{, My Degree(s)}			% author's current degree(s)
+\copyrightYear{2015}            		% copyright year of your thesis/dissertation
+\graduationMonth{May}           		% month of graduation of your thesis/dissertation
+\supervisor{My Supervisor}	    		% advisor's name
+\nomProf{My Nominating Professor}	    % nominating professor's name
+\keywords{List, Of, Keywords}			% keywords (optional) separated by commas - these are used in the PDF file properties
+\headSchool{Prof. Tom Brazil} 			% head of school
+\major{Electrical Engineering}			% major: Mechanical Engineering, Aerospace Engineering, Mathematics...
+\degree{Philosophi{\ae} Doctor}	    	% degree: Doctor of Philosophy, Master of Science, Master of Engineering...
+\college{Engineering and Architecture}  % college
 \dept{Electrical, Electronic and Communications Engineering}	% department
 \university{University College Dublin}	% school name
 % THIS TEMPLATE ACCOMMODATES UP TO 5 COMMITTEE MEMBERS - ENTER ONLY THE NAMES OF THE MEMBERS ON YOUR COMMITTEE
-\numberOfCommitteeMembers{2} % enter the number of committee members
-\coSupervisorA {My Co-Supervisor}	% name of first committee member
-\committeeMemberB {Committee Member 2}	% name of second committee member
-\committeeMemberC {Committee Member 3}	% ... you get the trend!
-\committeeMemberD {Committee Member 4}	% if your committee has less than 4 members, you do not need to edit the
-\committeeMemberE {Committee Member 5}  % rest of committee names
+\numberOfCommitteeMembers{2} 			% enter the number of committee members
+\coSupervisorA {My Co-Supervisor}		% name of co-supervisor
+\committeeMemberB {Committee Member 1}	% name of second committee member
+\committeeMemberC {Committee Member 2}	% ... you get the trend!
+\committeeMemberD {Committee Member 3}	% if your committee has less than 4 members, you do not need to edit the
+\committeeMemberE {Committee Member 4}  % rest of committee names
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % LOAD SOME USEFUL PACKAGES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{nomencl}                    % produces a nomenclature
-\usepackage{float}                      % figure floats
-\usepackage[numbers]{natbib}                     % this package allows you to link your references
-\usepackage{graphicx}					% graphics package
+
+
 \graphicspath{ {figures/}{figures/eps/}{figures/pdf/} }% specify the path where figures are located
-\usepackage{epstopdf}					% converts eps files to pdf
-\usepackage{fancyhdr}                   % fancy headers and footers
-\usepackage{url}                        % nicely format url breaks
-\usepackage[inactive]{srcltx}		 	% necessary to use forward and inverse searching in DVI
-\usepackage{relsize}                    % font sizing hierarchy
-\usepackage{booktabs}                   % professional looking tables
-\usepackage[config, labelfont={bf}]{caption,subfig} % nice sub figures
-\usepackage{mathrsfs}                   % additional math scripts
-\usepackage[Bjarne]{fncychap/fncychap}	% creats fancier chapter titles
+
 %%% PACKAGES THAT ARE PRELOADED WITH THE CLASS ARE: amsmath,amsthm,amssymb,setspace,geometry,hyperref,and colors
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -117,7 +108,7 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % BIBLIOGRAPHY
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \makeBibliographyPage % make the bibliography title page - can be edited in ut-thesis-template.tex
+    \makeBibliographyPage % make the bibliography title page - can be edited in ucdThesis.cls
     \bibliographystyle{ieeetran} % bibliography style - recommend using apalike-doi as it hyperlinks DOIs
     \bibliography{references/references-dissertation} % references.bib included in the references directory
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

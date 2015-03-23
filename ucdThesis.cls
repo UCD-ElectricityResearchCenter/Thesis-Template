@@ -34,8 +34,8 @@
 % Please report any bugs to the thesis consultant.
 \NeedsTeXFormat{LaTeX2e}%
 \def\filename{ucdThesis.cls}%
-\def\fileversion{ver 0.0.1}%
-\def\filedate{27 March 2014}%
+\def\fileversion{ver 0.0.2}%
+\def\filedate{23 March 2015}%
 \def\contributors{Alexander C. Melhorn}%
 \typeout{\filename}%
 \typeout{\fileversion}%
@@ -65,6 +65,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 	Main Definitions
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\currentDegree#1{\gdef\@currentDegree{#1}}%
 \def\copyrightYear#1{\gdef\@copyrightYear{#1}}%
 \def\graduationMonth#1{\gdef\@graduationMonth{#1}}%
 \def\supervisor#1{\gdef\@supervisor{#1}}%
@@ -85,6 +86,7 @@
 % initialize macros
 \def\@title{My Title}
 \def\@author{My Name}
+\def\@currentDegree{degree(s)}
 \def\@keywords{My Keywords}
 \def\@graduationMonth{May}
 \def\@copyrightYear{2014}
@@ -105,11 +107,30 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 	LOAD PACKAGES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\RequirePackage{amsmath,amsthm,amssymb}     % AMS math, AMS theorem, AMS fonts
-\RequirePackage{setspace}                   % line spacing
-\RequirePackage[vcentering,dvips,a4paper]{geometry}	% help with margins
+\RequirePackage{amsmath,amsthm,amssymb}     			% AMS math, AMS theorem, AMS fonts
+\RequirePackage{mathrsfs}                   			% additional math scripts
+\RequirePackage{setspace}                   			% line spacing
+\RequirePackage[vcentering,dvips,a4paper]{geometry}		% help with margins
+\RequirePackage{color}									% allows for changing text color
+\RequirePackage{nomencl}                    			% produces a nomenclature
+\RequirePackage[numbers]{natbib}            			% this package allows you to link your references
+\RequirePackage{graphicx}								% graphics package
+\RequirePackage{float}                      			% figure floats
+\RequirePackage{epstopdf}								% converts eps files to pdf
+\RequirePackage[config, labelfont={bf}]{caption,subfig} % nice sub figures
+\RequirePackage[Bjarne]{fncychap}						% creats fancier chapter titles
+\RequirePackage{fancyhdr}                   			% fancy headers and footers
+\RequirePackage{url}                        			% nicely format url breaks
+\RequirePackage[inactive]{srcltx}		 				% necessary to use forward and inverse searching in DVI
+\RequirePackage{relsize}                    			% font sizing hierarchy
+\RequirePackage{booktabs}                   			% professional looking tables
+
+
+% make sure this package is listed last
 \RequirePackage[pdftex,plainpages=false,pdfpagelabels=true,breaklinks=true,pagebackref]{hyperref} % for pdf bookmarks
-\RequirePackage{color}
+%----------------------------------------------------------------------------------------------------%
+% rename Bibliography to Refrences, comment out to return to default
+\renewcommand{\bibname}{References}
 %----------------------------------------------------------------------------------------------------%
 % define theorem, corollary, and lemma environments
 \theoremstyle{plain}
@@ -181,7 +202,7 @@
         \vfill
 	
 		\Large \rm
-		\@author
+		\@author \@currentDegree
 
 		\vfill
 
@@ -205,11 +226,13 @@
 
 		\vfill
 
-		\emph{Head of School:}  \@headSchool \\
-		\emph{Supervisor:} 	\@supervisor \\
-		\emph{Co-supervisor:}	\@coSupervisorA \\
-		% you can add more co-supervisors here
-		\emph{Nominating Professor:}  \@nomProf \\
+		\begin{tabular}{r l}
+			\emph{Head of School:} &\@headSchool \\
+			\emph{Supervisor:} &\@supervisor \\
+			\emph{Co-supervisor:} &\@coSupervisorA \\
+			% you can add more co-supervisors here
+			\emph{Nominating Professor:} &\@nomProf \\
+		\end{tabular}
 		
 		\vfill		
 		
@@ -334,9 +357,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\makeBibliographyPage}{
     \newpage % create a new page for the bibliography title
-    \addToTOC{Bibliography} % add bibliography to table of contents
+    \addToTOC{References} % add bibliography to table of contents
     \vspace*{2.0in} % move down the page 2.0 inches
-    \begin{center}\Huge\bf{Bibliography}\end{center} % make the bibliography title
+    \begin{center}\Huge\bf{References}\end{center} % make the bibliography title
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % addToTOC: macro that adds an entry to the table of contents
